@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "app/components/Title/index.tsx", "app/index.tsx"  ]
+, "app/components/Title/index.jsx", "app/index.jsx", "app/components/Form/index.jsx", "app/components/Main/index.jsx", "app/_layout.jsx", "app/components/Form/ResutIMC/index.jsx"  ]
 }

@@ -4,8 +4,8 @@ import React from "react"
 export default function ResultIMC(props) {
     return(
         <View>
+            <Text>{props.messageResultIMC}</Text>
             <Text>{props.resultIMC}</Text>
-            <Text>{props.MessageResultIMC}</Text>
         </View>
     )
 }
