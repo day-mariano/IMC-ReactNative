@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { View, Text, TextInput, Button } from "react-native"
 import ResultIMC from "./ResutIMC";
+import styles from "./style.js"
 
 export default function Form() {
     const [height, setHeight] = useState(null)
@@ -28,8 +29,8 @@ export default function Form() {
         setMessageIMC("Preencha o peso e altura")
     }
     return(
-        <View>
-            <View>
+        <View style={styles.formContext}>
+            <View style={styles.form}>
 
                 <Text>Altura</Text>
                 <TextInput
