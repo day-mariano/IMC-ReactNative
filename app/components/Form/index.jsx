@@ -32,16 +32,18 @@ export default function Form() {
         <View style={styles.formContext}>
             <View style={styles.form}>
 
-                <Text>Altura</Text>
+                <Text style={styles.formLabel}>Altura</Text>
                 <TextInput
+                style={styles.input}
                 onChangeText={setHeight}
                 value={height}
                 placeholder="Ex.: 1.75"
                 keyboardType="numeric"
                 ></TextInput>
-                <Text>Peso</Text>
 
+                <Text style={styles.formLabel}>Peso</Text>
                 <TextInput
+                style={styles.input}
                 onChangeText={setWeight}
                 value={weight}
                 placeholder="Ex.: 75.55"
