@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     },
     form: {
         width:'100%',
-        height:'100%',
+        height:'auto',
         marginTop: 30,
         padding: 10,
     },
@@ -31,6 +31,20 @@ const styles = StyleSheet.create({
         height: 40,
         margin: 12,
         paddingLeft: 10,
+    },
+    buttonCalculator: {
+        borderRadius:50,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#ff0043',
+        paddingTop: 14,
+        paddingBottom: 12,
+        marginLeft:12,
+        margin:30
+    },
+    textButtonCalculator: {
+        fontSize:20,
+        color:'#fff',
     }
     
 })
